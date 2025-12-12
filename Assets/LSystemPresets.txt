@@ -5,4 +5,4 @@ n=7; axiom = X; angle=20; length=0.035; rules={F: FF, X: F[+X]F[-X]+X}; variable
 n=7; axiom = X; angle=25.7; length=0.035; rules={F: FF, X: F[+X][-X]FX}; variables={F, X}; constants={+, -, [, ]}; actions={F: DLi, X: DLe, +: RC, -: RA, [: Push, ]: Pop}
 n=5; axiom = X; angle=22.5; length=0.11; rules={F: FF, X: F-[[X]+X]+F[+FX]-X}; variables={F, X}; constants={+, -, [, ]}; actions={F: DLi, X: DLe, +: RC, -: RA, [: Push, ]: Pop}
 n=5; axiom = F+XF+F+XF; angle=90; length=0.075; rules={X: XF-F+F-XF+F+XF-F+F-X}; variables={X}; constants={F, +, -}; actions={F: DLi, X: DN, +: RC, -: RA}; offset = {3.2, 2.5}; Sierpinski curve
-n = 5; axiom = F++F++F++F++F; angle = 36; length=0.1; rules = {F: F++F++F+++++F-F++F}; variables = {F}; constants = {+, -}; actions = {F: DLi, +: RC, -: RA}; offset = {2.4, 1.6}; P Bourke Pentaplexity
+n = 4; axiom = F++F++F++F++F; angle = 36; length=0.1; rules = {F: F++F++F+++++F-F++F}; variables = {F}; constants = {+, -}; actions = {F: DLi, +: RC, -: RA}; offset = {2.4, 1.6}; P Bourke Pentaplexity

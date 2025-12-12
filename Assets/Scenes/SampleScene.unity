@@ -10615,18 +10615,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ActionMappingGroup
       objectReference: {fileID: 0}
-    - target: {fileID: 1925322162123501393, guid: 11496aad5e0464262a7058d493491f97, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2353691065328926438, guid: 11496aad5e0464262a7058d493491f97, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2353691065328926438, guid: 11496aad5e0464262a7058d493491f97, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4027430460491605713, guid: 11496aad5e0464262a7058d493491f97, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -10705,22 +10693,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4027430460491605713, guid: 11496aad5e0464262a7058d493491f97, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4937573197354800854, guid: 11496aad5e0464262a7058d493491f97, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4937573197354800854, guid: 11496aad5e0464262a7058d493491f97, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4937573197354800854, guid: 11496aad5e0464262a7058d493491f97, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: -17
-      objectReference: {fileID: 0}
-    - target: {fileID: 6322845447277350606, guid: 11496aad5e0464262a7058d493491f97, type: 3}
-      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

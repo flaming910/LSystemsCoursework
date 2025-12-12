@@ -20,19 +20,20 @@ public class ActionMappingInput : MonoBehaviour
         Dropdowns[0].value = option;
     }
 
-    public void AddDropdown()
-    {
-        var dropdownObject = Dropdowns[0].gameObject.transform.parent.gameObject;
-        var dropdownParent = dropdownObject.transform.parent;
-        var dropdown = Instantiate(dropdownObject, dropdownParent).GetComponentInChildren<TMP_Dropdown>();
-        Dropdowns.Add(dropdown);
-    }
-
-    public void RemoveDropdown(TMP_Dropdown dropdown)
-    {
-        if (Dropdowns.Count == 1) return;
-        Destroy(dropdown.gameObject.transform.parent.gameObject);
-        Dropdowns.Remove(dropdown);
-        
-    }
+    //Was working on a system to have multiple actions per character but the UI was just getting too messy
+    // public void AddDropdown()
+    // {
+    //     var dropdownObject = Dropdowns[0].gameObject.transform.parent.gameObject;
+    //     var dropdownParent = dropdownObject.transform.parent;
+    //     var dropdown = Instantiate(dropdownObject, dropdownParent).GetComponentInChildren<TMP_Dropdown>();
+    //     Dropdowns.Add(dropdown);
+    // }
+    //
+    // public void RemoveDropdown(TMP_Dropdown dropdown)
+    // {
+    //     if (Dropdowns.Count == 1) return;
+    //     Destroy(dropdown.gameObject.transform.parent.gameObject);
+    //     Dropdowns.Remove(dropdown);
+    //     
+    // }
 }

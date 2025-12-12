@@ -250,11 +250,11 @@ public class LSystemSettings : MonoBehaviour
                     var offsetValues = value.Split(',');
                     OffsetPosition.x = float.Parse(offsetValues[0]);
                     OffsetPosition.y = float.Parse(offsetValues[1]);
-                    XOffsetInput.text = OffsetPosition.x.ToString("F1");
-                    YOffsetInput.text = OffsetPosition.y.ToString("F1");
                     break;
             }
         }   
+        XOffsetInput.text = OffsetPosition.x.ToString("F1");
+        YOffsetInput.text = OffsetPosition.y.ToString("F1");
     }
 
     private void LoadFromFile(int presetIndex)
