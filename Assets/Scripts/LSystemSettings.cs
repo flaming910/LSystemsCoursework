@@ -114,6 +114,18 @@ public class LSystemSettings : MonoBehaviour
                 ApplySettings();
             }
         }
+        
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            Iterations.text = (int.Parse(Iterations.text) + 1).ToString();
+            Controller.SetIterations(int.Parse(Iterations.text));
+            
+        }
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            Iterations.text = (Mathf.Max(0, int.Parse(Iterations.text) - 1)).ToString();
+            Controller.SetIterations(int.Parse(Iterations.text));
+        }
     }
 
     public void ApplySettings()

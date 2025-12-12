@@ -84,14 +84,7 @@ public class LSystemController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            SetIterations(Iterations + 1);
-        }
-        if (Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            SetIterations(Mathf.Max(0, Iterations - 1));
-        }
+
     }
     
     public void SetIterations(int iterations)
